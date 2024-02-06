@@ -1,0 +1,12 @@
+To connect a servo motor with ESP32, you need to follow these steps:
+
+Connect the GND pin of the ESP32 module to the GND of the servo motor. You can choose any GND pin available on the ESP32 for the connection12.
+Connect the VCC pin of the servo motor to the Vin pin of the ESP32 module. This will provide 5V power to the servo motor12.
+Connect the signal pin of the servo motor to any GPIO pin of the ESP32 module that supports PWM output. For example, you can use GPIO 13314.
+You also need to install the ESP32Servo library in your Arduino IDE to control the servo motor with code14. You can find some examples of how to use this library in this tutorial1.
+
+
+servo		esp
+gnd			dng
+vcc			5v
+signal		GPIO PWM output GPIO 13314
